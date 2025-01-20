@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap");
+:root{
+    /* colors */
+    --black-color:#101010;
+    --orange-color:#D87D4A;
+    --white-color:#f7f3f3;
+    --gray-color:#afa6a6;
+    --drakblack-color:#464242;
+
+    /* Typography */
+    --heading-xl: 5.5rem; /*88px /16 === 5.5rem*/
+    --heading-lg: 3rem; /*48px*/
+    --heading-md: 1.5rem; /*24px*/
+    --heading-sm: 1.125rem; /*18px*/
+    --line-height-lg: 5.5rem; /*88px*/
+    --line-height-medium: 2rem; /*32px*/
+    --line-height-small: 1.75rem; /*28px*/
+    --char-spacing-one: -0.15rem; /*-2.4px*/
+    --char-spacing-one: -0.09rem; /*-1.5px*/
+    --font-family: "Space Grotesk", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: var(--font-family);
+    color: var(--white-color);
+}
+.main{
+    background-color: var(--black-color);
+    height: 720px;
+}
+
+.main-container{
+padding-left: 8rem;
+padding-right: 8rem;
+}
+header{
+    display: flex;
+    color: var(--white-color);
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000px;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+}
+header h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: var(--line-height-medium);
+   
+   
+}
+.headphone{
+    color: var(--orange-color);
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--white-color);
+   
+}
+li{
+    list-style-type: none;
+}
+a{
+    color:  var(--white-color);
+    text-decoration: none;
+}
+.icons{
+    color: var(--white-color);
+}
+i{
+    width: 24px;
+    height: 2px;
+}
+hr{
+   position: relative;
+    border: 1px solid rgb(80, 77, 77);
+}
+.hero-text-container{
+    padding-top: 5rem;
+    width: 76%;
+    }
+    .hero-text-container h2{
+        font-size: 3rem;
+        line-height: 3rem;
+        color: var(--white-color);
+    }
+    .hero-text-container p{
+        font-size: var(--heading-sm);
+        line-height: var(--line-height-small); 
+         letter-spacing: var(--char-spacing-two);
+        font-weight: 500;
+        margin-top: 27px;
+        color: var(--gray-color);
+    }
+    .handphone-image{
+        position: absolute;
+        right: 5rem;
+       
+        
+    }
+    .handphone-image img{
+        width: 720px;
+        height: 720px;
+    }
+    .contact{
+        background-color:var(--orange-color);
+        width: 170px;
+        height: 50px;
+        color: var(--white-color);
+        border: none;
+        margin-top: 2rem;
+    }
+   
+
+    .main-cards{
+       
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding-top: 10rem;
+     
+    }
+    .card1{
+        background-color: #f7f3f3;
+        width: 340px;
+        height: 200px;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+      
+    }
+    .card2{
+        background-color: #f7f3f3;
+        width: 340px;
+        height: 200px;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+    }
+    .card3{
+       background-repeat: no-repeat;
+        background-color: #f7f3f3;
+        width: 340px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .img3{
+        display: flex;
+        justify-content: center;
+        margin-top: -4rem;
+        
+    }
+    .img4{
+        display: flex;
+        justify-content: center;
+        margin-top: -4rem;
+       
+    }
+    
+    .img5{
+        display: flex;
+        justify-content: center;
+        margin-top: -4rem;
+    }
+    .card1 h3{
+color: var(--black-color);
+text-align: center;
+margin-top: 2rem;
+    }
+    .card2 h3{
+        color: var(--black-color);
+        text-align: center;
+        margin-top: 3rem;
+            }
+            .card3 h3{
+                color: var(--black-color);
+                text-align: center;
+                margin-top: 4rem;
+                    }
+                    .card1 p{
+                        color: var(--orange-color);
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                    .card2 p{
+                        color: var(--black-color);
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                    .card3 p{
+                        color: var(--black-color);
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                    .solid {
+                        color: #101010;
+                        margin-top: 11px;
+                    }
+                    .solid1 {
+                        color: var(--orange-color);
+                        margin-top: 11px;
+                    }
+                    .angle{
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    .main-speaker{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      
+                       
+                    }
+                    .speaker{
+                        display: flex;
+                        background-color: var(--orange-color);
+                        width: 1100px;
+                        border-radius: 1rem;
+                        margin-top: 11rem;
+                      
+                        
+                       
+                    }
+                    .speaker h2{
+                        font-size: 3rem;
+                        line-height: 3rem;
+                        color: var(--white-color);
+                        margin-top: 7rem;
+                        margin-left:8rem ;
+                        letter-spacing: 6px;
+                    }
+                    .speaker p{
+                        font-size: 18px;
+                         letter-spacing: var(--char-spacing-two);
+                        font-weight: 500;
+                        margin-top: 27px;
+                       color: rgb(224, 212, 212);
+                       margin-left:8rem ;
+                       
+                    }
+                    .imge2{
+                        margin-left: 7rem;
+                        margin-top: 5rem;
+                    }
+                    .contact2{
+                        background-color:var(--drakblack-color);
+                        width: 170px;
+                        height: 50px;
+                        color: var(--white-color);
+                        border: none;
+                        margin-top: 2rem;
+                        margin-left:8rem ;
+                    }
